@@ -40,8 +40,10 @@ header a {
 }
 
 .portrait {
+    position: relative;
     width: 200px;
     border-radius: 100%;
+    border: 2px solid #f8004a;
 }
 
 .center-align {
