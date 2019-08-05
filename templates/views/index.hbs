@@ -1,0 +1,13 @@
+{{>header}}
+<div class="content">
+    <p>Use this site to get your weather!</p>
+    <form action="/weather" method="post">
+        <input type="text" name="location" class="input-location" placeholder="Enter Location">
+        <input type="submit" value="search" class="btn bg-color">
+    </form>
+</div>
+<div class="main-content">
+    <p id="message-1"></p>
+    <p id="message-2"></p>
+</div>
+{{>footer}}

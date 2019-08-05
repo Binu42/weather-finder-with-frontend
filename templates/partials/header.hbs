@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Weather App</title>
+    {{!-- description of web application --}}
+    <meta name="description" content="find the weather condition of any place.">
+    <!--  Social tags      -->
+    <meta name="keywords"
+        content="weather, darksky, mapbox, binu, chapra, weather finder, webgl, raindrops, effect, rain, web">
+    {{!-- image of logo when shared --}}
+    <meta itemprop="image" content="img/weather.png">
+
+    <meta name="author" content="Binu Kumar" />
+    <link rel="shortcut icon" href="img/weather.png">
+    {{!-- google font api --}}
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,700,500,900' rel='stylesheet'
+        type='text/css'>
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="css/demo.css" />
+    <link rel="stylesheet" type="text/css" href="css/style1.css" />
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+</head>
+
+<body class="demo-1">
+    <div class="image-preload">
+        <img src="img/drop-color.png" alt="">
+        <img src="img/drop-alpha.png" alt="">
+        <img src="img/weather/texture-rain-fg.png" />
+        <img src="img/weather/texture-rain-bg.png" />
+        <img src="img/weather/texture-sun-fg.png" />
+        <img src="img/weather/texture-sun-bg.png" />
+        <img src="img/weather/texture-fallout-fg.png" />
+        <img src="img/weather/texture-fallout-bg.png" />
+        <img src="img/weather/texture-drizzle-fg.png" />
+        <img src="img/weather/texture-drizzle-bg.png" />
+    </div>
+    <div class="container">
+        <div class="slideshow">
+            <canvas width="1" height="1" id="container" style="position:absolute"></canvas>
+            <div class="slide">
+                {{!-- top menu --}}
+                <header>
+                    <h1>{{title}}</h1>
+                    <a href="/">Weather</a>
+                    <a href="/about">About</a>
+                    <a href="/help">Help</a>
+                </header>
