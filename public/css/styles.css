@@ -84,7 +84,6 @@ header a {
 }
 
 #message-2 {
-    font-size: 1.2rem;
     color: #ffe600;
 }
 
@@ -122,5 +121,6 @@ title {
 }
 
 .main-content p{
+    font-size: 1rem;
     color: #ffe600;
 }
