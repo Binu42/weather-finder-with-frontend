@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
     color: #333333;
     font-family: arial;
 }
@@ -84,6 +85,13 @@ header a {
 
 #message-2 {
     font-size: 1.2rem;
+    color: #ffe600;
+}
+
+p {
+    font-weight: bold;
+    margin: 0.5rem;
+    font-size: 1.2rem;
 }
 
 title {
@@ -99,19 +107,20 @@ title {
         position: relative;
         left: 20px;
         top: 5rem;
+        color: #ffe600;
     }
 }
 
-.content{
+.content {
     margin-top: 6rem;
     display: grid;
     justify-content: center;
 }
 
-.clearfix{
+.clearfix {
     clear: both;
 }
 
-P{
-    margin: 0.5rem;
+.main-content p{
+    color: #ffe600;
 }
