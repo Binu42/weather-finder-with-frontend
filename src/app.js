@@ -93,6 +93,6 @@ app.get('*', (req, res) => {
 });
 
 // application listening at port 3000 or deployed port
-app.listen(process.env.PORT || 3000, () => {
-    console.log('Server is up on port 3000.')
+app.listen(process.env.PORT || 4000, () => {
+    console.log('Server is up on port 4000.')
 });
