@@ -2,7 +2,7 @@
 <div class="content">
     <p>Use this site to get your weather!</p>
     <form action="/weather" method="post">
-        <input type="text" name="location" class="input-location" placeholder="Enter Location">
+        <input type="text" id="location" name="location" class="input-location" placeholder="Enter the Location">
         <input type="submit" value="search" class="btn bg-color">
     </form>
 </div>
@@ -10,4 +10,13 @@
     <p id="message-1"></p>
     <p id="message-2"></p>
 </div>
+<script>
+    function activatePlacesSearch() {
+        let input = document.getElementById("location");
+        let autocomplete = new google.maps.places.Autocomplete(input);
+    }
+</script>
+<script type="text/javascript"
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAgY52iScKYCAMMPrcBUhcYJQ1ozM4KUsM&libraries=places&callback=activatePlacesSearch"></script>
+
 {{>footer}}
