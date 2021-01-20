@@ -24,7 +24,7 @@
     "fs": "0.0.2",
     "glslify": "^2.3.1",
     "gulp-uglify": "^1.5.3",
-    "gsap": "^1.18.0",
+    "gsap": "^3.6.0",
     "gulp": "^3.9.0",
     "gulp-babel": "^5.2.1",
     "gulp-connect": "^2.2.0",
